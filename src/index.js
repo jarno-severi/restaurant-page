@@ -1,1 +1,4 @@
-console.log('Init');
+import { init } from "./pageLoad";
+
+init();
+console.log(container);

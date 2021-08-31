@@ -1,1 +1,1 @@
-console.log("Init");
+(()=>{"use strict";const e=document.body,t=document.querySelector("#content");t.appendChild(function(e,t=""){return(e=document.createElement(e)).textContent=t,e}("h1","My Restaurant")),t.appendChild(function(...e){const t=document.createElement("ul");return t.id="navigation",e.forEach((e=>{let n=e.toLowerCase();n=document.createElement("li"),n.textContent=e,t.appendChild(n)})),t}("Home","Menu","Contact")),e.appendChild((()=>{const e=document.createElement("div");return e.id="container",e})()),console.log(container)})();

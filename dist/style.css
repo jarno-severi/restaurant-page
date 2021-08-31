@@ -1,0 +1,11 @@
+#navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 25px 0 25px 0;
+    background-color: tomato;
+}
+li {
+    display: inline;
+    padding: 8px;
+    font-size: large;
+}
